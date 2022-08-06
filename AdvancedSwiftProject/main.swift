@@ -85,3 +85,11 @@ print("1-3")
 default:
 print("none")
 }
+
+var x = 5
+
+print(x)
+
+x += 1
+
+print(x)
