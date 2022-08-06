@@ -73,3 +73,15 @@ func convertStringToIntGuard(number : String) -> Int{
 print(convertStringToIntGuard(number: myNumber))
 
 print(convertStringToIntIf(number: myNumber))
+
+
+var numberX = 11
+
+var remainder = numberX % 4
+
+switch remainder{
+    case 1...3:
+print("1-3")
+default:
+print("none")
+}
