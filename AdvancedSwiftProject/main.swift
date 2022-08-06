@@ -41,5 +41,35 @@ print(structMusiciam.age)
 structMusiciam.happyBirthday()
 print(structMusiciam.age)
 
+let tuple = (1,2)
+
+print(tuple.0)
 
 
+print(1,2,3,4)
+
+let tuple23 = (123,"ali")
+
+
+
+let  myNumber = "5"
+
+func convertStringToIntIf(number: String) -> Int{
+    if let myString = Int(number){
+        return myString
+    }else{
+        return 0
+    }
+}
+
+func convertStringToIntGuard(number : String) -> Int{
+    guard let myString  = Int(number) else {
+        return 0
+    }
+    return myString
+}
+
+
+print(convertStringToIntGuard(number: myNumber))
+
+print(convertStringToIntIf(number: myNumber))
